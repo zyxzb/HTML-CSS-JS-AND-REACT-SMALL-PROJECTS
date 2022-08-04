@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
-
     <title>Front-End Projects</title>
 </head>
 
 <body>
-    <section class="double-click">
+    <section class="double-click section-container">
         <h3 class="double-click__title">Double Click on the image to
             <i class="double-click__heart fa-solid fa-heart"></i>
             it.</h3>
@@ -22,9 +22,113 @@
             <span class="double-click__times">0</span>
             times</small>
         <div class="double-click__heart-click"></div>
-        <a href="https://codesandbox.io/s/tpczk1">Link To Project in React</a>
+        <a class="double-click__link" href="https://codesandbox.io/s/tpczk1">Link To Project in React</a>
     </section>
-    <script src="index.js"></script>
+
+
+    <!-- SWIPER SLIDER -->
+    <div class="swiper-container section-container">
+        <h3 class="swiper-title">Swiper Slider</h3>
+
+        <div class="slider-container swiper">
+            <div class="slider-content">
+                <div class="slider-wrapper swiper-wrapper">
+                    <!-- // -->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c29tZW9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 1</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1618075149243-47fc9c7efb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c29tZW9uZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 2</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1619451683205-1f77097aa8d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNvbWVvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 3</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1594441097885-75085c837807?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHNvbWVvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 4</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1563514008661-55ce046f3805?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fHNvbWVvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 5</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="overlay"></div>
+                            <div class="card-image">
+                                <img src="https://images.unsplash.com/photo-1628645419925-ca8262621ed1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzfHxzb21lb25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                    alt="user_image" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">Someone 6</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiperBtn"></div>
+                <div class="swiper-button-prev swiperBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <a class="swiper-link" href="https://codesandbox.io/s/inspiring-brattain-z8j5om">Link To Project in React</a>
+    </div>
+    <script src="doubleClick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiperSlider.js"></script>
 </body>
 
 </html>

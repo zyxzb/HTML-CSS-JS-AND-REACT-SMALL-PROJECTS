@@ -8,9 +8,18 @@
 
 }
 
+.section-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
 .section-container:nth-child(2n -1) {
     background-color: rgb(238, 238, 238);
-    max-width: 100vw;
+
 }
 
 /* DOUBLECLICK */
@@ -196,4 +205,52 @@
 
 .swiper-pagination-bullet-active {
     background-color: rgb(0, 167, 167);
+}
+
+/* CANVAS */
+
+.canvas {
+    background-color: white;
+    border: 1px solid black;
+    cursor: url("./images/pencil\ .cur"), default;
+    margin-top: 20px;
+}
+
+.canvas__toolbox {
+    height: 40px;
+    width: 802px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-top: none;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.canvas__toolbox>* {
+    background-color: #fff;
+    border: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.canvas__toolbox>*:last-child {
+    margin-left: auto;
+}
+
+.canvas__color {
+    padding: 0;
+}
+
+@media (max-width: 810px) {
+    .canvas__toolbox {
+        width: 80vw;
+
+    }
 }

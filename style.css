@@ -254,3 +254,75 @@
 
     }
 }
+
+/* PASSWORD GENERATOR  */
+.generator-title {
+    margin-bottom: 20px;
+}
+
+.generator {
+
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: rgba(224, 224, 224, 0.626);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.generator__button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.generator__settings {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.generator__setting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.generator__result-container {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.generator__icon {
+    font-size: 22px;
+}
+
+.generator__result {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.generator__length {
+    padding-left: 5px;
+    outline: none;
+}
+
+.generator__button {
+    align-self: flex-end;
+}
+
+.generator-link {
+    margin-top: 20px;
+    /* pointer-events: none; */
+    cursor: not-allowed;
+}

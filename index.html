@@ -142,10 +142,52 @@
         </div>
         <a class="canvas-link" href="https://codesandbox.io/s/brave-https-f4c8bo">Link To Project in React</a>
     </section>
+
+    <!-- PASSWORD GENERATOR -->
+
+    <section class="section-container">
+        <h3 class="generator-title">Password Generator</h3>
+        <div class="generator">
+            <div class="generator__result-container">
+                <button class="generator__clipboard generator__button" title="Copy Password">
+                    <i class="generator__icon far fa-clipboard"></i>
+                </button>
+                <span class="generator__result"></span>
+            </div>
+            <div class="generator__settings">
+                <div class="generator__setting">
+                    <label class="generator__label">Password Length</label>
+                    <input class="generator__input generator__length" type="number" id="length" min='4' max="20"
+                        value="20" />
+                </div>
+                <div class="generator__setting">
+                    <label class="generator__label" for="uppercase">Include Uppercase
+                        Letters</label>
+                    <input class="generator__input generator__uppercase" type="checkbox" id="uppercase" checked />
+                </div>
+                <div class="generator__setting">
+                    <label class="generator__label" for="lowwercase">Include Lowercase Letters</label>
+                    <input class="generator__input generator__lowercase" type="checkbox" id="lowercase" checked />
+                </div>
+                <div class="generator__setting">
+                    <label class="generator__label" for="numbers">Include Numbers</label>
+                    <input class="generator__input generator__numbers" type="checkbox" id="numbers" checked />
+                </div>
+                <div class="generator__setting">
+                    <label class="generator__label" for="symbols">Include Symbols</label>
+                    <input class="generator__input generator__symbols" type="checkbox" id="symbols" checked />
+                </div>
+            </div>
+            <button class="generate__button generator__button" title="Generate Password">Generate Password</button>
+        </div>
+        <a class="generator-link" href="" disabled>Link To
+            Project in React</a>
+    </section>
     <script src="doubleClick.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="swiperSlider.js"></script>
     <script src="canvas.js"></script>
+    <script src="generator.js"></script>
 </body>
 
 </html>

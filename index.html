@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <section class="double-click section-container">
+
+    <section class="double-click section-container" id="doubleClick">
         <h3 class="double-click__title">Double Click on the image to
             <i class="double-click__heart fa-solid fa-heart"></i>
             it.</h3>
@@ -25,10 +26,9 @@
         <a class="double-click__link" href="https://codesandbox.io/s/tpczk1">Link To Project in React</a>
     </section>
 
-
     <!-- SWIPER SLIDER -->
 
-    <div class="swiper-container section-container">
+    <div class="swiper-container section-container" id="swiper">
         <h3 class="swiper-title">Swiper Slider</h3>
 
         <div class="slider-container swiper">
@@ -130,7 +130,7 @@
 
     <!-- CARVAS -->
 
-    <section class="section-container">
+    <section class="section-container" id="canvas">
         <h3 class="canvas-title">CANVAS</h3>
         <canvas class="canvas" width="800" height="600"></canvas>
         <div class="canvas__toolbox">
@@ -145,7 +145,7 @@
 
     <!-- PASSWORD GENERATOR -->
 
-    <section class="section-container">
+    <section class="section-container" id="passwordGenerator">
         <h3 class="generator-title">Password Generator</h3>
         <div class="generator">
             <div class="generator__result-container">
@@ -161,8 +161,7 @@
                         value="20" />
                 </div>
                 <div class="generator__setting">
-                    <label class="generator__label" for="uppercase">Include Uppercase
-                        Letters</label>
+                    <label class="generator__label" for="uppercase">Include Uppercase Letters</label>
                     <input class="generator__input generator__uppercase" type="checkbox" id="uppercase" checked />
                 </div>
                 <div class="generator__setting">
@@ -180,14 +179,41 @@
             </div>
             <button class="generate__button generator__button" title="Generate Password">Generate Password</button>
         </div>
-        <a class="generator-link" href="https://codesandbox.io/s/ivxwlf">Link To
-            Project in React</a>
+        <a class="generator-link" href="https://codesandbox.io/s/ivxwlf">Link To Project in React</a>
+    </section>
+
+    <section class="hamburger-list-tools">
+        <div class="hamburger-section">
+            <ul class="hamburger-section__list">
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#doubleClick">Double Click</a>
+                </li>
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#swiper">Swiper Slider</a>
+                </li>
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#canvas">Canvas</a>
+                </li>
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#passwordGenerator">Password Generator
+                    </a>
+                </li>
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#">...
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="hamburger__btn"></div>
+        </div>
     </section>
     <script src="doubleClick.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="swiperSlider.js"></script>
     <script src="canvas.js"></script>
     <script src="generator.js"></script>
+    <script src="hamburger.js"></script>
 </body>
 
 </html>

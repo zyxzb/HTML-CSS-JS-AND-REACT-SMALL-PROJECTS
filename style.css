@@ -323,6 +323,5 @@
 
 .generator-link {
     margin-top: 20px;
-    /* pointer-events: none; */
-    cursor: not-allowed;
+    cursor: pointer;
 }

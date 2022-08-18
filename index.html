@@ -182,7 +182,25 @@
         <a class="generator-link" href="https://codesandbox.io/s/ivxwlf">Link To Project in React</a>
     </section>
 
-    <section class="hamburger-list-tools">
+    <!-- USERS GENERATOR -->
+    <section class="section-container" id="usersGenerator">
+        <img src="" alt="">
+        <form class="users-generator">
+            <label class="users-generator__label-name">Wybierz płeć:</label>
+            <select class="users-generator__select" name="pets" id="pet-select">
+                <option value="all" selected>Wszyscy</option>
+                <option value="male">Mężczyżni</option>
+                <option value="female">Kobiety</option>
+            </select>
+            <label class="users-generator__label-name">Liczba osób:</label>
+            <input class="users-generator__input" type="number" value="10">
+            <input type="submit" class="users-generator__submit" value="Pobierz użytkowników" />
+        </form>
+        <div class="user-list"></div>
+
+    </section>
+
+    <section class="sidebar-section">
         <div class="hamburger-section">
             <ul class="hamburger-section__list">
                 <li class="hamburger-section__item">
@@ -196,6 +214,10 @@
                 </li>
                 <li class="hamburger-section__item">
                     <a class="hamburger-section__link" href="#passwordGenerator">Password Generator
+                    </a>
+                </li>
+                <li class="hamburger-section__item">
+                    <a class="hamburger-section__link" href="#usersGenerator">Users Generator
                     </a>
                 </li>
                 <li class="hamburger-section__item">
@@ -213,6 +235,7 @@
     <script src="swiperSlider.js"></script>
     <script src="canvas.js"></script>
     <script src="generator.js"></script>
+    <script src="usersGenerator.js"></script>
     <script src="hamburger.js"></script>
 </body>
 

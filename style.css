@@ -445,3 +445,51 @@ body {
     margin-top: 20px;
     cursor: pointer;
 }
+
+/* USERS GENERATOR  */
+
+.users-generator {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+
+.user-list {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    width: 70vw;
+    max-height: 80vh;
+    overflow-y: auto;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.user__image {
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+.user__name {
+    font-size: 18px;
+    text-align: center;
+}
